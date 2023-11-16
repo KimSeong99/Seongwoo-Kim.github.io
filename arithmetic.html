@@ -23,18 +23,19 @@
             num2 = prompt ("Enter the second number:");
 
     //perform calculations
-            addans = num1 * 1 + num2 * 1; //make sure num1 & num2 are numeric
+            addans = num1 + num2; //make sure num1 & num2 are numeric
             subans = num1 - num2;
             multans = num1 * num2;
             divans = num1 / num2;
-            modans = num1 % num2;
+            modans = num1 % num2;s
+
     //display results
-            document.write ("Arithmetic Answers");
-            document.write (addans);
-            document.write (subans);
-            document.write (multans);
-            document.write (divans);
-            document.write (modans);
+            document.write ("Arithmetic Answers<br/>");
+            document.write ("Result 1 is: " + addans + "<br/>");
+            document.write("Result 2 is: " + subans + "<br/>");
+            document.write("Result 3 is: " + multans + "<br/>");
+            document.write("Result 4 is: " + divans + "<br/>");
+            document.write("Result 5 is: " + modans + "<br/>");
         }
     </script>
 </head>
